@@ -143,6 +143,7 @@
     self.arrayOfCities = self.oldArrayOfCities;
     [self.citiesTableView reloadData];
     searchBar.text = nil;
+    [searchBar resignFirstResponder];
 }
 
 
