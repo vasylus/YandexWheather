@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface WheatherModel : NSObject
+
 - (instancetype)initWithDictionary:(NSDictionary *)dic;
 
 @property (strong, nonatomic) NSString *date;

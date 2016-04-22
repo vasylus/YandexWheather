@@ -17,7 +17,6 @@
 
 @interface CitiesTableViewDataSource : NSObject
 
-
 - (instancetype)initWithTableView:(UITableView *)tableView searchBar:(UISearchBar *)searchBar andView:(UIView *)view;
 
 @property (nonatomic, weak) id <CitiesTableViewDelegate> delegate;

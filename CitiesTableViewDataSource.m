@@ -13,7 +13,7 @@
 
 
 
-@interface CitiesTableViewDataSource ()<UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, NSXMLParserDelegate>
+@interface CitiesTableViewDataSource ()<UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
 @property (strong, nonatomic) NSMutableArray *arrayOfCities;
 @property (strong, nonatomic) NSMutableArray *oldArrayOfCities;

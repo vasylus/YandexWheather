@@ -20,9 +20,9 @@
     [super viewDidLoad];
     [self setUpView];
 }
+
 - (void)setUpView{
     self.navigationController.topViewController.title = self.nameOfCity;
-//    [self.navigationController.title settextcol]
     
     self.dataSource = [[DetailWheatherTableDataSource alloc] initWithTableView:self.tableView cityID:self.cityID andViewController:self];
 }

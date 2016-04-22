@@ -12,7 +12,7 @@
 #import "WheatherModel.h"
 #import "WheatherCell.h"
 
-@interface DetailWheatherTableDataSource ()<UITableViewDelegate, UITableViewDataSource, NSXMLParserDelegate>
+@interface DetailWheatherTableDataSource ()<UITableViewDelegate, UITableViewDataSource>
 
 @property UITableView *tableView;
 @property NSString *cityID;

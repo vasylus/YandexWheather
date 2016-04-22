@@ -9,6 +9,7 @@
 #import "WheatherCell.h"
 
 @interface WheatherCell ()
+
 @property (weak, nonatomic) IBOutlet UILabel *dayLabel;
 @property (weak, nonatomic) IBOutlet UILabel *temperatureTo;
 @property (weak, nonatomic) IBOutlet UILabel *temperatureFrom;
